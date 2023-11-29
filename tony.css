@@ -1,0 +1,517 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ list-style: none;
+ text-decoration: none;
+ /* font-family:Arial, Helvetica, sans-serif; */
+}
+
+
+body{
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ /* background-color: aqua; */
+
+}
+
+img{
+ width: 100%;
+ height: 100%;
+}
+
+
+
+nav{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap:20px;
+ height: 50px;
+ background-color: white;
+ z-index: 200px;
+}
+
+
+
+.list{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
+ text-transform: uppercase;
+ font-weight: bold;
+ padding: 10px 10px;
+ width: 100%;
+ z-index: 200px;
+}
+
+
+.con{
+position: relative;
+}
+
+select{
+ position: absolute;
+ top: 20px;
+ border: none;
+ background-color: transparent;
+}
+.con a{
+display: block;
+}
+
+.list li:hover{
+ text-decoration: underline;
+ }
+
+
+#tooltip{
+ background-color: white;
+ line-height: 45px;
+ position: absolute;
+ top: 40px;
+ left: -20px;
+ opacity:0;
+ padding: 10px;
+ z-index: 20px;
+}
+
+.list li:hover #tooltip{
+ opacity: 1;
+}
+
+.tooltip ol li{
+ white-space: nowrap;
+ text-transform: capitalize;
+}
+
+
+#tooltip ol li:hover{
+ background-color: gray;
+ text-decoration: none;
+ color: white;
+}
+
+.men{
+ opacity: 0;
+}
+.men a{
+ color: red;
+}
+
+/* end of cone where all tooltip have been edittteed */
+
+
+/* begining of cone for the next tooltips edition */
+.cone{
+ position: relative;
+}
+
+.cone select{
+ position: absolute;
+ left: 0px;
+}
+
+
+/* end of cone */
+
+
+/* begining of cone1 */
+.cone1{
+ position: relative;
+}
+
+.cone1 select{
+ position: absolute;
+ left: 0;
+}
+/* end of cone1 */
+
+/* begining of container */
+.container{
+ width: 90%;
+ height: 500px;
+ object-fit: contain;
+ position: relative;
+ margin-bottom: 25px;
+}
+.wrapper{
+ width: 100%;
+ height: 450px;
+ 
+}
+
+.pagetext{
+ font-family:Arial, Helvetica, sans-serif;
+ position: absolute;
+ top: 200px;
+ left: 50px;
+ color: white;
+ text-transform: capitalize;
+ font-size: 50px;
+}
+/* end of container */
+
+
+/* begining of frmae*/
+
+.frame{
+ width: 90%;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ margin-bottom: 25px;
+}
+
+.profile {
+ width: 45%;
+ background-color: white;
+ height: 80%;
+ position: relative;
+}
+
+.profileprog{
+ height: 70%;
+}
+
+.small{
+ color: rgb(156, 156, 156);
+}
+
+.span{
+position: absolute;
+ color: rgb(136, 133, 133);
+ text-transform:uppercase;
+ margin-top:15px;
+ font-weight: bold;
+}
+.framebox{
+ width: 100%;
+ height: 90px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+ /* margin-top: 10px; */
+}
+
+.imgbox{
+ height: 65%;
+}
+.imgtext{
+ width: 100%;
+}
+
+.strong{
+ display: block;
+ text-transform: capitalize;
+} 
+/* end of frame*/
+
+
+/* beginig of life styek*/
+.lifestyle{
+ width: 90%;
+ height: 400px;
+ margin-bottom: 25px;
+ /* background-color: yellow; */
+}
+
+.boxes{
+ width: 33%;
+ object-fit: contain;
+}
+video{
+ width: 100%;
+ height: 100%;
+ border-radius: 2px;
+}
+
+.programe{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ vertical-align: left;
+}
+/* end of lifestyel*/
+
+
+
+/* beginingof video*/
+.video{
+ width: 90%;
+ height: 300px;
+ background-color: rgb(168, 168, 164);
+ margin-top: 45px;
+ margin-bottom: 40px;
+}
+
+
+.provideo{
+ width: 100%;
+ height: 290px;
+ display: flex;
+ justify-content: center;
+ /* background-color: green; */
+ /* align-items: center; */
+}
+
+.vidbox{
+ width: 47%;
+ height: 270px;
+ background-color: rgb(252, 248, 249);
+ text-transform: capitalize;
+}
+
+span{
+ font-size: 18px;
+ text-transform: capitalize;
+ font-weight: bold;
+}
+/* end of video*/
+
+
+/* begining of africa speak*/
+.africa{
+ width: 90%;
+ height: 500px;
+ background-color: lightgreen;
+ position: relative;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.africatext{
+ width: 350px;
+ height: 350px;
+ background-color: white;
+ text-align: center;
+ border-radius: 50%;
+ position: absolute;
+ z-index: 2;
+ top: -35px;
+ left: 210px;;
+}
+
+.africatext h3{
+ margin-top: 70px;
+ margin-bottom: 20px;
+ color: rgb(206, 195, 195);
+ text-transform: capitalize;
+}
+
+.africatext p{
+ margin-bottom: 20px;
+}
+.little{
+ font-size: 12px;
+}
+
+
+/* end of aftica speak*/
+
+
+/* begining of aftica library*/
+.library{
+ width: 90%;
+ height: 500px;
+ /* background-color: lightsalmon; */
+}
+
+.labflex{
+ width: 100%;
+ height: 470px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+/* background-color: green; */
+gap: 5px;
+}
+
+.labs{
+ width: 30%;
+ height: 350px;
+ /* background-color: pink; */
+ display: flex;
+ /* justify-content: center; */
+ flex-direction: column;
+ text-align: center;
+ /* align-items: center; */
+}
+
+.l{
+ width: 100%;
+ height: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(230, 228, 228);
+}
+
+.a{
+ width: 90%;
+ height: 200px;
+ /* background-color: green; */
+}
+
+.see{
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+/* end of aftica library*/
+
+
+/* beginig of aftica fotter*/
+.footer{
+ width: 90%;
+ height: 400px;
+ background-color: black;
+ color: white;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column; 
+}
+
+.footerwrapper{
+ width: 90%;
+ height: 220px;
+ /* background-color: green; */
+}
+
+.footercon{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ /* gap: 5px; */
+}
+
+.footerbox{
+ width: 49%;
+ height:200px ;
+ /* background-color: pink; */
+ /* white-space: nowrap; */
+ /* padding: 10px; */
+}
+
+.footerbox ul{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 1px solid white;
+ padding: 10px 15px;
+ gap: 20px;
+}
+.footerbox h3,ul{
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+
+.fcol1{
+ width: 50%;
+ line-height: 21px;
+}
+
+.fcol2{
+ width: 40%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ line-height: 30px;
+}
+
+hr{
+ width: 90%;
+ background-color: rgb(156, 144, 144);
+}
+i{
+ color: white;
+ font-size: 40px;
+
+}
+
+.linkcon{
+ width: 100%;
+ height: 50px;
+ /* background-color: yellow; */
+ display: flex;
+ /* justify-content: center; */
+ align-items: center;
+ gap: 40px;
+}
+
+/* end of aftica fotter*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (width < 800px){
+ .container{
+  height: 300px;
+ }
+ nav{
+  /* background-color: red; */
+ }
+ nav li{
+  display: none;
+ }
+
+ .wrapper{
+  height: 300px;
+ }
+
+ .pagetext{
+  font-size: 20px;
+  left: 10px;
+ }
+
+ .men{
+  display: contents;
+ }
+
+ .frame{
+height: 300px;
+flex-direction: column;
+ }
+
+ .profile{
+  width: 90%;
+ }
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
